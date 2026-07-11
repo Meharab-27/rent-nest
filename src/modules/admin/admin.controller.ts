@@ -42,7 +42,7 @@ const getAllProperties = catchAsync(async (_req: Request, res: Response) => {
     success: true,
     statusCode: httpStatus.OK,
     message: "Properties fetched successfully",
-    data: { properties },
+    data: { properties }
   });
 });
 
