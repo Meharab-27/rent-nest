@@ -104,12 +104,12 @@ const deleteCategory = catchAsync(async (req: Request, res: Response) => {
     success: true,
     statusCode: httpStatus.OK,
     message: "Category deleted successfully",
-    data: { category },
+    data: { category }
   });
 });
 
 export const adminController = {
-  getAllUsers
+  getAllUsers,
   updateUserStatus,
   getAllProperties,
   getAllRentalRequests,
