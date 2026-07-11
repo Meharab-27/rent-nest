@@ -109,7 +109,7 @@ const deleteCategory = catchAsync(async (req: Request, res: Response) => {
 });
 
 export const adminController = {
-  getAllUsers,
+  getAllUsers
   updateUserStatus,
   getAllProperties,
   getAllRentalRequests,
