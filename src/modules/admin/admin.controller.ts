@@ -59,7 +59,7 @@ const getAllRentalRequests = catchAsync(async (_req: Request, res: Response) => 
 const createCategory = catchAsync(async (req: Request, res: Response) => {
   const category = await adminService.createCategory(req.body);
   sendResponse(res, {
-    success: true,
+    success: true
     statusCode: httpStatus.CREATED,
     message: "Category created successfully",
     data: { category },
