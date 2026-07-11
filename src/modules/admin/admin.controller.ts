@@ -115,5 +115,5 @@ export const adminController = {
   getAllRentalRequests,
   createCategory,
   updateCategory,
-  deleteCategory
+  deleteCategory,
 };
