@@ -73,7 +73,7 @@ const updateCategory = catchAsync(async (req: Request, res: Response) => {
     res.status(httpStatus.BAD_REQUEST).json({
       success: false,
       statusCode: httpStatus.BAD_REQUEST,
-      message: "Category id is required"
+      message: "Category id is required",
     });
     return;
   }
